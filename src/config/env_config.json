@@ -1,0 +1,37 @@
+{
+    "mlflow" :
+    {
+        "MLFLOW_TRACKING_USERNAME": "admin",
+        "MLFLOW_TRACKING_PASSWORD": "password",
+        "MLFLOW_S3_ENDPOINT_URL": "http://192.168.26.35:9000",
+        "AWS_ACCESS_KEY_ID": "s07Nyzus2FCynptOImlM",
+        "AWS_SECRET_ACCESS_KEY": "qJjr1tuxTjTUPi44L2s9YKpfaE0fOfmUbY9h1q5P",
+        "MLFLOW_TRACKING_URI": "http://192.168.26.35:5000"
+    },
+    "data":
+    {
+            "mysql":
+            {
+                "username" : "ingest_data",
+                "host" : "192.168.26.30",
+                "port" : 3306,
+                "password": "AXHwmdDbaVm4",
+                "database": "vpbank_ekyc"
+            },
+            "mongodb":
+            {
+                "username" : "fir",
+                "password" : "DnA#2024",
+                "host" : "192.168.26.36",
+                "port" : 27017,
+                "database_name" : "labeling",
+                "collection_name" : "ocr"
+            }
+    },
+    "minio":
+    {
+        "url" : "192.168.26.26:9000",
+        "access_key" : "LEZdY36hUgtbamPF4Bqu",
+        "secret_key" : "XppVEH8EC86sLkgrew0s8WotcC38fi4TvP7TZW7A"
+    }
+}
